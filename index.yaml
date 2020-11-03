@@ -3,7 +3,22 @@ entries:
   cdn:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-11-03T13:29:30.539420691+01:00"
+    created: "2020-11-03T13:53:47.099685686+01:00"
+    dependencies:
+    - name: ipl
+      repository: '@ipl'
+      version: 0.4.0
+    description: Serve global and shared resources available to all front applications
+      of Braincube
+    digest: 13df4b5b8937c06ead5efd6c65dd893c724ecc190b0f52c28d3e9f94a2b10ba7
+    icon: https://gitlab.ipleanware.com/uploads/-/system/project/avatar/796/cdn.png
+    name: cdn
+    urls:
+    - cdn-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-11-03T13:53:47.099143874+01:00"
     dependencies:
     - name: ipl
       repository: '@ipl'
@@ -18,7 +33,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-11-03T13:29:30.53705471+01:00"
+    created: "2020-11-03T13:53:47.098642158+01:00"
     dependencies:
     - name: ipl
       repository: '@ipl'
@@ -31,4 +46,4 @@ entries:
     urls:
     - cdn-1.0.0.tgz
     version: 1.0.0
-generated: "2020-11-03T13:29:30.536373312+01:00"
+generated: "2020-11-03T13:53:47.097838099+01:00"
